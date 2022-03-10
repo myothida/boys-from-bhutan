@@ -46,6 +46,8 @@ def getnamgay():
 
 
 app = JupyterDash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+app.title = "Bosy from Bhutan"
+server = app.server
 
 
 # In[6]:
